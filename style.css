@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Bitter", serif;
+}
+.hero {
+  background-color: #8980f0;
+  min-height: 90vh;
+  color: white;
+  display: inline-block;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 32px;
+}
+.navbar .links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 16px;
+  font-size: 1.2rem;
+}
+.navbar p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+.navbar .contact {
+  background-color: white;
+  color: #8980f0;
+  padding: 16px 24px;
+  text-decoration: none;
+}
+.navbar .contact:hover {
+  opacity: 0.8;
+}
+.tagline {
+  font-size: 4.5rem;
+  color: white;
+  letter-spacing: 2px;
+  padding: 32px 0;
+}
+.content {
+  padding: 0 15%;
+}
+.column {
+  font-size: 2rem;
+}
+.column > p {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+}
+.column .skills {
+  width: 50%;
+  float: left;
+  padding: 0;
+  list-style: none;
+}
+
+.column .skills li {
+  width: 50%;
+  float: left;
+  font-size: 1.25rem;
+  margin: 8px 0;
+}
+.blog-section {
+  padding: 64px 0;
+}
+.blog-content {
+  padding: 0 15%;
+}
+
+.column .blog-posts {
+  width: 50%;
+  float: left;
+}
+.blog-post p {
+  margin: 8px 0;
+}
+.blog-heading {
+  font-size: 1.5rem;
+}
+.blog-text {
+  font-size: 1rem;
+}
+.blog-posts .blog-date {
+  font-size: 0.9rem;
+  color: grey;
+  margin-bottom: 32px;
+}
+.events-section {
+  background-color: #0e334954;
+  padding: 64px 0;
+  display: inline-block;
+  width: 100%;
+}
+.events-content {
+  padding: 0 15%;
+}
+.events-card {
+  width: 50%;
+  float: left;
+  margin-top: 24px;
+}
+.event-title {
+  font-size: 1.5rem;
+}
+.event-location {
+  font-size: 1rem;
+}
+.events-card .event-date {
+  font-size: 0.9rem;
+  color: grey;
+  margin-bottom: 32px;
+}
+footer {
+  background-color: #474158;
+  color: white;
+  padding: 60px;
+}
+footer img {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 8px;
+}
+.footer-content {
+  text-align: center;
+}
