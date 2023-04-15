@@ -128,3 +128,39 @@ footer img {
 .footer-content {
   text-align: center;
 }
+
+@media only screen and (max-width: 1000px) {
+  .content,
+  .blog-content,
+  .events-content {
+    padding: 0 5%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .tagline {
+    font-size: 3.5rem;
+  }
+  .column > p {
+    width: 100%;
+  }
+  .column .skills {
+    width: 100%;
+  }
+  .column .blog-posts {
+    width: 100%;
+  }
+  .section-heading {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .tagline {
+    font-size: 3rem;
+    margin: 0 !important;
+  }
+  .links {
+    display: none;
+  }
+}
